@@ -1,0 +1,272 @@
+/* Selector de tipo o etiqueta*/
+/* Estilos Cuerpo*/
+body {
+    /* Tipo Fuente */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Margen Exterior */
+    margin: 0;
+    /* Relleno Exterior */
+    padding: 0;
+    /* Color Fondo */
+    background-color: #f7f7f7;
+    /* Color Tipografía / Texto */
+    color: #000000;
+}
+
+/* Escabezado Destacado */
+header {
+    /* Color Fondo */
+    background-color: #85010C;
+    /* Color Tipografía / Texto */
+    color: white;
+    /* Alineación Texto Centrado */
+    text-align: center;
+    /* Relleno Superior e Inferior */
+    padding: 16px 0;
+
+}
+
+/* Barra Navegación */
+nav {
+    /* Color Fondo */
+    background-color: #343434;
+    /* Relleno Interior */
+    padding: 8px;
+    /* Modelo Flexbox */
+    display: flex;
+    /* Alinear Elementos Verticalmente Centro */
+    align-items: center;
+    /* Espacio Entre los elementos */
+    justify-content: space-between;
+}
+
+/* Selector descendiente - Etilos Enlaces Navegación */
+nav a {
+    /* Color Tipografía - Letra */
+    color: white;
+    /* Quitar Subrayado */
+    text-decoration: none;
+    /* Margen Derecho Enlaces */
+    margin-right: 50px;
+}
+
+/* Selector descendiente - Estilos para imágenes en enlaces */
+a img {
+    /* Ancho de la imagen */
+    width: 40px;
+    /* Altura de la imagen */
+    height: 40px;
+    /* Margen izquierdo entre la imagen y el texto */
+    margin-left: 50px;
+}
+
+/* Selector de tipo o etiqueta*/
+/* Estilo Contenido Principal */
+main {
+    /* Relleno Interior */
+    padding: 20px;
+}
+
+/* Estilos Artículos General  */
+article {
+    /* Modelo Flexbox */
+    display: flex;
+    /* Espacio Entre los elementos */
+    justify-content: space-between;
+    /* Margen Inferior */
+    margin-bottom: 20px;
+    /* Borde de 1px sólido  */
+    border: 1px solid #ddd;
+    /* Color Fondo */
+    background-color: white;
+}
+
+/* Estilos Secciones General */
+section {
+    /* Relleno Interior */
+    padding: 20px;
+    /* Espacio Restante en el contenedor */
+    flex: 1;
+    /* Alinear Texto Centrado */
+    text-align: center;
+}
+
+/* Estilo Encabezado h2 */
+h2 {
+    /* Tamaño de fuente */
+    font-size: 20px;
+}
+
+/* Selector descendiente - Tamaño Imagen Secciones index.html / peliculas.html */
+section img {
+    /* Ancho de la imagen */
+    width: 250px;
+    /* Altura de la imagen */
+    height: 350px;
+}
+
+/* Selector Clase Fondo h2 index.html */
+.fondo {
+    /* Color Fondo */
+    background-color: #85010C;
+    /* Color Tipografía - Letra */
+    color: #ffffff;
+}
+
+/* Selector Clase Contenedor Genérico Peliculas.html */
+.container {
+    /* Borde redondeado */
+    border-radius: 5px;
+    /* Color de fondo */
+    background-color: #f2f2f2;
+    /* Relleno interior */
+    padding: 20px;
+}
+
+/* Selector Clase Sección Peliculas.html */
+.content {
+    /* Espacio Restante en el contenedor */
+    flex: 1;
+    /* Margen Izquierdo */
+    margin-left: 20px;
+}
+
+/* Estilos para botones */
+button {
+    /* Color de fondo del botón */
+    background-color: #85010C;
+    /* Color de texto del botón */
+    color: white;
+    /* Sin borde */
+    border: none;
+    /* Relleno interior */
+    padding: 10px 20px;
+    /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    cursor: pointer;
+}
+
+/* Selector Clase para el button - botonera */
+.botonera {
+    display: flex;
+    /* Utiliza el modelo flexbox para alinear los botones horizontalmente */
+}
+
+/* Selector descendiente para el button - botonera*/
+.botonera button {
+    /* Margen derecho entre los botones */
+    margin-right: 10px;
+    /* Borde redondeado */
+    border-radius: 12px;
+}
+
+/* Estilos para párrafos */
+p {
+    /* Fuente en negrita */
+    font-weight: bold;
+    /* Color de texto */
+    color: #464646;
+    /* Tamaño de fuente */
+    font-size: 18px;
+}
+
+/* Estilos para elementos secundarios quienesSomos.html */
+aside {
+    /* Borde de 1px sólido  */
+    border: 1px solid #ddd;
+    /* Color Fondo */
+    background-color: white;
+    /* Modelo Flexbox */
+    display: flex;
+    /* Alinear Elementos Verticalmente Centro */
+    align-items: center;
+}
+
+/* Selector descendiente- Tamaño Imagenes Estilos Secundarios quienesSomos.html */
+aside img {
+    /* Ancho de la imagen */
+    width: 300px;
+    /* Altura de la imagen */
+    height: 350px;
+}
+
+
+/* Estilos para párrafos en elementos secundarios quienesSomos.html */
+aside p {
+    /* Alineación del texto justificada */
+    text-align: justify;
+    /* Margen izquierdo de 20px */
+    margin-left: 20px;
+}
+
+
+/* Selector atributo - Estilos para formularios */
+input[type=text],
+input[type=email],
+select,
+textarea {
+    /* Ancho completo */
+    width: 100%;
+    /* Relleno interior */
+    padding: 12px;
+    /* Borde de 1px sólido con un color específico */
+    border: 1px solid #ccc;
+    /* Borde redondeado */
+    border-radius: 4px;
+    /* El tamaño incluye el relleno y el borde */
+    box-sizing: border-box;
+    /* Margen superior */
+    margin-top: 6px;
+    /* Margen inferior */
+    margin-bottom: 16px;
+    /* Permite cambiar verticalmente el tamaño de textarea */
+    resize: vertical;
+}
+
+/* Selector atributo - Estilos para el botón de envío en formularios */
+input[type=submit] {
+    /* Color de fondo del botón de envío */
+    background-color: #85010c;
+    /* Color de texto del botón de envío */
+    color: white;
+    /* Relleno interior */
+    padding: 12px 20px;
+    /* Sin borde */
+    border: none;
+    /* Borde redondeado */
+    border-radius: 12px;
+    /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    cursor: pointer;
+}
+
+/* Estilos al pasar el mouse sobre el botón de envío */
+input[type=submit]:hover {
+    /* Cambio de color de fondo al pasar el mouse */
+    background-color: #45a049;
+}
+
+/* Estilos para listas y elementos de lista */
+ul,
+li {
+    /* Alineación del texto a la izquierda */
+    text-align: left;
+}
+
+/* Selector Clase .apps de imágenes en enlaces de listas y elementos de lista */
+.apps {
+    /* Ancho de la imagen */
+    width: 90px;
+    /* Altura de la imagen */
+    height: 70px;
+}
+
+/* Estilos para el pie de página */
+footer p {
+    /* Color de fondo del pie de página */
+    background-color: #85010c;
+    /* Color de texto del pie de página */
+    color: white;
+    /* Alineación del texto al centro */
+    text-align: center;
+    /* Relleno interior de 30px */
+    padding: 30px;
+}
